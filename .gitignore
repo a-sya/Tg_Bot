@@ -5,5 +5,4 @@
 *.ali
 *.editorconfig
 *.cs
-Tg_Bot/obj/Debug/net5.0/Tg_Bot.csproj.AssemblyReference.cache
 *.cache
