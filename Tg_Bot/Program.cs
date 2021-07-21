@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using Telegram.Bot.Types.ReplyMarkups;
-using System.IO;
+//using System.IO;
 
 namespace Tg_Bot
 {
@@ -20,6 +20,7 @@ namespace Tg_Bot
             client.StartReceiving();
 
             client.OnMessage += StartMessege;           
+
 
             Console.ReadLine();
             client.StopReceiving();

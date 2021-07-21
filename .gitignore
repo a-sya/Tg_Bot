@@ -5,4 +5,5 @@
 *.ali
 *.cache
 *.cache
-*.v2
+*.pdb
+*.pdb
