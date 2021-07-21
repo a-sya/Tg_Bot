@@ -19,7 +19,7 @@ namespace Tg_Bot
 
             client.StartReceiving();
 
-            client.OnMessage += StartMessege;           
+            client.OnMessage += StartMessege;
 
 
             Console.ReadLine();
