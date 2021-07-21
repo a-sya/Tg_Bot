@@ -5,3 +5,5 @@
 *.ali
 *.editorconfig
 *.cs
+bin/
+obj/
