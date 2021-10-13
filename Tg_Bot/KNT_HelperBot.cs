@@ -50,7 +50,7 @@ namespace Tg_Bot
             server.TurnOnAsync();
 
             var sMsg = new ScheduledMsg();
-            sMsg.SenderAllNewUsers(new DateTime(2021, 08, 31, 06, 10, 00), client, "Извините за неудобства в алгоритме был баг, который сейчас устранен, пожалуйста перезапустите бота и пользуйтесь");
+            //sMsg.SenderAllNewUsers(new DateTime(2021, 08, 31, 06, 10, 00), client, "Извините за неудобства в алгоритме был баг, который сейчас устранен, пожалуйста перезапустите бота и пользуйтесь");
         }
 
         [Obsolete]
@@ -244,7 +244,7 @@ namespace Tg_Bot
 
                             TelegramBotLogger.PrintInfo(e.Message.From.FirstName, e.Message.From.Id.ToString(), e.Message.From.Username, TypeOfButton.ToServer.ToString());
 
-                            await client.SendTextMessageAsync(msg.Chat.Id, FileName.DonateLink);
+                            await client.SendTextMessageAsync(msg.Chat.Id, File.ReadAllText(FileName.DonateLink));
                             await client.SendTextMessageAsync(msg.Chat.Id, "Или воспользуйтесь Qr-кодом для совершения доната, заранее спасибки🤗😌");
                             await client.SendPhotoAsync(msg.Chat.Id, FileName.DonateQrCode);
                             break;
