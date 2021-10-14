@@ -281,6 +281,7 @@ namespace Tg_Bot
                     LessonsInfo(inlineData, callBack);
                     break;
                 case TypeOfButton.Conferences:
+                    Conf(inlineData, callBack);
                     break;
                 default:
                     break;
@@ -350,6 +351,14 @@ namespace Tg_Bot
             ReadOrCreateFiles(file, 151, callBack.CallbackQuery.From.Id.ToString());
         }
 
+        private async void Conf(InlineData data, CallbackQueryEventArgs callBack)
+        {
+            await client.AnswerCallbackQueryAsync(callBack.CallbackQuery.Id);
+            string fileName = FileName.ConferencDir + $"{data.Lesson}.txt";
+            ReadOrCreateFiles(fileName, 0, callBack.CallbackQuery.From.Id.ToString());
+
+            TelegramBotLogger.PrintInfo(callBack.CallbackQuery.From.FirstName, callBack.CallbackQuery.From.Id.ToString(), callBack.CallbackQuery.From.Username, data.Lesson.ToString());
+        }
 
         private async void ReadOrCreateFiles(string fileName, long size, string id)
         {
