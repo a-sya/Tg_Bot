@@ -83,60 +83,70 @@ namespace Tg_Bot.ServiceClass
                             new[]
                             {
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "АиСД!",
+                                    text: "ДСіПЗ",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Lessons,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.ASD
-                            }.Crypt()
-                                    ),
-                                InlineKeyboardButton.WithCallbackData(
-                                    text: "ВМ!",
-                                    callbackData: new InlineData(){
-                            Button = Enumerate.TypeOfButton.Lessons,
-                            Week = Enumerate.TypeOfWeek.None,
-                            Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.VM
-                            }.Crypt())
-                            },
-                            new[]
-                            {
-                                InlineKeyboardButton.WithCallbackData(
-                                    text: "Л-МВ!",
-                                    callbackData: new InlineData(){
-                            Button = Enumerate.TypeOfButton.Lessons,
-                            Week = Enumerate.TypeOfWeek.None,
-                            Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.LMV
-                            }.Crypt()),
-                                InlineKeyboardButton.WithCallbackData(
-                                    text: "ОПИ",
-                                    callbackData: new InlineData(){
-                            Button = Enumerate.TypeOfButton.Lessons,
-                            Week = Enumerate.TypeOfWeek.None,
-                            Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.OPI
-                            }.Crypt())
-                            },
-                            new[]
-                            {
-                                InlineKeyboardButton.WithCallbackData(
-                                    text: "Теор Вер",
-                                    callbackData: new InlineData(){
-                            Button = Enumerate.TypeOfButton.Lessons,
-                            Week = Enumerate.TypeOfWeek.None,
-                            Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.TV
+                            Lesson = Enumerate.TypeOfLesson.DSPZ
                                 }.Crypt()),
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "ІУК",
+                                    text: "МАтаПЗ",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Lessons,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.IUK
+                            Lesson = Enumerate.TypeOfLesson.MAPZ
                                 }.Crypt())
+                            },
+                            new[]
+                            {
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "БД",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Lessons,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.BD
+                                }.Crypt()),
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "БЖД",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Lessons,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.BJD
+                                }.Crypt())
+                            },
+                            new[]
+                            {
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "КПП",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Lessons,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.KPP
+                                }.Crypt()),
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "МПП",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Lessons,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.MPP
+                                }.Crypt()),
+                            },
+                            new[]
+                            {
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "МОтаДО",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Lessons,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.MODO
+                                }.Crypt()),
                             }
                         });
         }
@@ -148,51 +158,70 @@ namespace Tg_Bot.ServiceClass
                             new[]
                             {
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "АиСД!",
+                                    text: "ДСіПЗ",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Conferences,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.ASD
+                            Lesson = Enumerate.TypeOfLesson.DSPZ
                                 }.Crypt()),
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "ВМ!",
+                                    text: "МАтаПЗ",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Conferences,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.VM
+                            Lesson = Enumerate.TypeOfLesson.MAPZ
                                 }.Crypt())
                             },
                             new[]
                             {
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "Л-МВ!",
+                                    text: "БД",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Conferences,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.LMV
+                            Lesson = Enumerate.TypeOfLesson.BD
                                 }.Crypt()),
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "ОПИ!",
+                                    text: "БЖД",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Conferences,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.OPI
+                            Lesson = Enumerate.TypeOfLesson.BJD
                                 }.Crypt())
                             },
                             new[]
                             {
                                 InlineKeyboardButton.WithCallbackData(
-                                    text: "Теор Вер!",
+                                    text: "КПП",
                                     callbackData: new InlineData(){
                             Button = Enumerate.TypeOfButton.Conferences,
                             Week = Enumerate.TypeOfWeek.None,
                             Day = Enumerate.TypeOfDay.None,
-                            Lesson = Enumerate.TypeOfLesson.TV
-                                }.Crypt())
+                            Lesson = Enumerate.TypeOfLesson.KPP
+                                }.Crypt()),
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "МПП",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Conferences,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.MPP
+                                }.Crypt()),
+                            },
+                            new[]
+                            {
+                                InlineKeyboardButton.WithCallbackData(
+                                    text: "МОтаДО",
+                                    callbackData: new InlineData(){
+                            Button = Enumerate.TypeOfButton.Conferences,
+                            Week = Enumerate.TypeOfWeek.None,
+                            Day = Enumerate.TypeOfDay.None,
+                            Lesson = Enumerate.TypeOfLesson.MODO
+                                }.Crypt()),
                             }
                             });
         }

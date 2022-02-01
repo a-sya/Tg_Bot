@@ -2,6 +2,6 @@
 {
     enum TypeOfLesson : byte
     {
-        None, ASD, VM, LMV, OPI, TV, IUK/*English, Sport*/
+        None, DSPZ, MAPZ, BD, BJD, KPP, MPP, MODO/*English, Sport*/
     }
 }
